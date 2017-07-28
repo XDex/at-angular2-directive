@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "ES6",
+    "target": "ES6",
+    "declaration": true,
+    "outDir": "./dist",
+    "experimentalDecorators": true,
+    "paths": {
+        "@angular/core": ["node_modules/@angular/core/@angular/core"],
+        "classnames": ["node_modules/classnames/index"]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

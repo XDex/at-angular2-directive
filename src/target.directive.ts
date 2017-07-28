@@ -2,7 +2,7 @@ import { Directive, Input, ElementRef } from '@angular/core';
 import classnames from 'classnames';
 import { TargetService } from './target.service';
 
-interface Opts {
+export interface Opts {
   mbox?: string,
   timeout?: number,
   params?: { [key: string]: string; },
